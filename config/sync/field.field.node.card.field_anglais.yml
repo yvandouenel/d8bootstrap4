@@ -1,0 +1,19 @@
+uuid: 11f5f9e6-b4b6-4b73-bd0d-5188c166e037
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anglais
+    - node.type.card
+id: node.card.field_anglais
+field_name: field_anglais
+entity_type: node
+bundle: card
+label: Answer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

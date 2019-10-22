@@ -1,0 +1,22 @@
+uuid: 2a9b6081-a566-435c-aac4-9f58108e1c69
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - memo
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: memo_help
+theme: memo
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
